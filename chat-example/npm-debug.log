@@ -1,0 +1,71 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\ProgramData\\chocolatey\\lib\\npm\\tools\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save-dev',
+1 verbose cli   '@types/node' ]
+2 info using npm@1.4.9
+3 info using node@v7.10.0
+4 warn package.json socket-chat-example@0.0.1 No repository field.
+5 warn package.json socket-chat-example@0.0.1 No README data
+6 verbose readDependencies using package.json deps
+7 verbose cache add [ '@types/node', null ]
+8 verbose cache add name=undefined spec="@types/node" args=["@types/node",null]
+9 verbose parsed url Url {
+9 verbose parsed url   protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: '@types/node',
+9 verbose parsed url   path: '@types/node',
+9 verbose parsed url   href: '@types/node' }
+10 verbose cache add name="" spec="types/node" args=["","types/node"]
+11 verbose parsed url Url {
+11 verbose parsed url   protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'types/node',
+11 verbose parsed url   path: 'types/node',
+11 verbose parsed url   href: 'types/node' }
+12 silly lockFile 6134932f-types-node types/node
+13 verbose lock types/node C:\Users\Myles\AppData\Roaming\npm-cache\6134932f-types-node.lock
+14 info maybeGithub Attempting types/node from git://github.com/types/node
+15 silly lockFile 4f2f4dc3-git-github-com-types-node git://github.com/types/node
+16 verbose lock git://github.com/types/node C:\Users\Myles\AppData\Roaming\npm-cache\4f2f4dc3-git-github-com-types-node.lock
+17 verbose addRemoteGit [ 'git://github.com/types/node', 'master' ]
+18 silly lockFile 4f2f4dc3-git-github-com-types-node git://github.com/types/node
+19 silly lockFile 4f2f4dc3-git-github-com-types-node git://github.com/types/node
+20 info maybeGithub Attempting types/node from git+ssh://git@github.com:types/node
+21 silly lockFile 921b5735-git-github-com-types-node git@github.com:types/node
+22 verbose lock git@github.com:types/node C:\Users\Myles\AppData\Roaming\npm-cache\921b5735-git-github-com-types-node.lock
+23 verbose addRemoteGit [ 'git@github.com:types/node', 'master' ]
+24 silly lockFile 921b5735-git-github-com-types-node git@github.com:types/node
+25 silly lockFile 921b5735-git-github-com-types-node git@github.com:types/node
+26 silly lockFile 6134932f-types-node types/node
+27 silly lockFile 6134932f-types-node types/node
+28 error addLocal Could not install types/node
+29 error Error: ENOENT: no such file or directory, stat 'A:\project\webapps_21\chat-example\types\node'
+30 error If you need help, you may report this *entire* log,
+30 error including the npm and node versions, at:
+30 error     <http://github.com/npm/npm/issues>
+31 error System Windows_NT 6.1.7601
+32 error command "C:\\Program Files\\nodejs\\node.exe" "C:\\ProgramData\\chocolatey\\lib\\npm\\tools\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save-dev" "@types/node"
+33 error cwd A:\project\webapps_21\chat-example
+34 error node -v v7.10.0
+35 error npm -v 1.4.9
+36 error path A:\project\webapps_21\chat-example\types\node
+37 error syscall stat
+38 error code ENOENT
+39 error errno -4058
+40 verbose exit [ -4058, true ]
