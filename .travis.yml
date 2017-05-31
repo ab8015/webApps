@@ -6,5 +6,5 @@ node_js:
 deploy:
   provider: heroku
   api_key: ee43c0fb-57d6-4fb6-8904-24614f8553a8
-  app: eulers-nightmare
+  app: euler-nightmare
   
